@@ -1,6 +1,6 @@
 {
     "name": "@zohosign/n8n-nodes-sign",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Interact with Zoho Sign API",
     "license": "MIT",
     "homepage": "",
