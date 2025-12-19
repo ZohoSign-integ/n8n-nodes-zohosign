@@ -1,0 +1,18 @@
+{
+	"node": "@zohosign/n8n-nodes-sign",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["transform"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://www.zoho.com/sign/api/oauth.html"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://www.zoho.com/sign/api/"
+			}
+		]
+	}
+}

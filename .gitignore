@@ -1,0 +1,11 @@
+dist/*
+todo.md
+n8n-zoho-sign-integ.fossil
+.fslckout
+.fossil-settings
+.vscode
+.github
+node_modules/*
+openapi.json
+.DS_Store
+package-lock.json
