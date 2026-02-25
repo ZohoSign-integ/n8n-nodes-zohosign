@@ -662,7 +662,7 @@ export class ZohoSign implements INodeType {
 				}
 			},
 			{
-				displayName: "returnAll",
+				displayName: "Return All",
 				name: "return_all",
 				type: "boolean",
 				default: false,
@@ -2799,7 +2799,8 @@ export class ZohoSign implements INodeType {
 			} catch (error) {
 				if (this.continueOnFail()) {
 					executionResults.push({
-						json: {"error": error.message}
+						json: {"error": error.message},
+						pairedItem: {item: itemIndex}
 					})
 				} else {
 					if (error.context) {

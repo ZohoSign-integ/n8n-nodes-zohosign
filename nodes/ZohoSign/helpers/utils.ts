@@ -78,6 +78,9 @@ export function mapToScopesForWebhookCreation(topics: string[]): string {
     return finalScopeList.join(",")
 }
 
+// Referenced from:
+// https://github.com/n8n-io/n8n/blob/master/packages/nodes-base/nodes/Google/Drive/v2/helpers/utils.ts
+
 export const UPLOAD_CHUNK_SIZE = 256 * 1024;
 
 export async function getItemBinaryData(
